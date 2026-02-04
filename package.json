@@ -1,0 +1,32 @@
+{
+  "name": "claude-codex-proxy",
+  "version": "0.1.0",
+  "description": "Middleware to connect Claude Code to Codex OAuth (Plus/Pro)",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["claude-code", "codex", "openai", "proxy", "oauth"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "http-proxy": "^1.18.1",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "open": "^10.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/http-proxy": "^1.17.14",
+    "typescript": "^5.4.0",
+    "tsx": "^4.7.0"
+  },
+  "bin": {
+    "codex-proxy": "dist/cli.js"
+  }
+}
