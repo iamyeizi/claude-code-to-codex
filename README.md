@@ -1,4 +1,4 @@
-# Claude Code → Codex Proxy
+# Claude Code → Codex Proxy (WIP)
 
 Middleware to connect Claude Code to OpenAI Codex OAuth (ChatGPT Plus/Pro subscription).
 
